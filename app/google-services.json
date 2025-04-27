@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "940055187752",
+    "project_id": "c-and-f",
+    "storage_bucket": "c-and-f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940055187752:android:95d12f2b7018ba43a7801d",
+        "android_client_info": {
+          "package_name": "com.example.cf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPSj6jBJIg4c00-IfsvIOgB1_f-0EiJmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

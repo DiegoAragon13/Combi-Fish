@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">C&amp;F</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="desarrollador"> By:  Diego Aragón</string>
+
+    <!-- Menu admin -->
+    <string name="Inicioadmin">Inicio</string>
+    <string name="PerfilAdmin">Perfil</string>
+    <string name="RegistrarAdmin">Registrar</string>
+    <string name="ListarAdmin">Lista de administradores</string>
+    <string name="Salir">Cerrar sesión</string>
+
+
+    <!-- Menu cliente -->
+
+    <string name="Opcionestxt">Opciones</string>
+    <string name="InicioCliente">Inicio</string>
+
+    <string name="MasOpcionestxt">Más opciones</string>
+    <string name="AcercaDe">Acceder</string>
+    <string name="Compartir">Compartir</string>
+    <string name="Cocineros">Cocineros</string>
+
+
+    <string name="Acceder">Acceder</string>
+
+    <!-- Registro de administradores-->
+
+    <string name="RegistroTXT">Registro de administradores</string>
+    <string name="Correo">Correo electronico</string>
+    <string name="Password">Contraseña</string>
+    <string name="Nombres">Nombre completos</string>
+    <string name="Apellidos">Apellidos completos</string>
+    <string name="Edad">Edad</string>
+    <string name="FechaRegistro">Fecha de Registro</string>
+    <string name="Registrar">Registrar</string>
+
+
+    <!--LOGIN DE ADMINISTRADORES -->
+    <string name="LoginTXT">Login de administradores</string>
+    <string name="Ingrear">Ingresar</string>
+
+    <!--INICIO Mesero-->
+    <string name="Menu">Menú</string>
+    <!--SPINNER-->
+    <string-array name="spinner_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>Barra</item>
+    </string-array>
+
+
+    <!--Categorias-->
+    <string name="Eligeunacategoriatxt">Elige Categoria</string>
+
+
+    <string name="CevichesTostadas">Cevchie | Tostadas </string>
+    <string name="CocinaCombieKids"> Cocina | Combie </string>
+    <string name="QuesadillasTacos">Quesadillas | Tacos</string>
+
+    <string name="KidsExtra">      Kids | Extra    </string>
+    <string name="ConAlcohol">Alcohol</string>
+    <string name="SinAlcohol">Sin Alcohol</string>
+
+    <!--MENU PARTE SUPERIOR DERECHA-->
+    <string name="Agregar">Agregar</string>
+    <string name="Vista">Vista</string>
+
+
+    <!-- Agregar PLATILLOS Ceviches-->
+    <string name="NombreTXTPlatillosCeviches">Nombre de imagenes</string>
+    <string name="NombrePlatillosCeviche">Escriba el nombre aquí</string>
+    <string name="PrecioPlatillosCeviches">0</string>
+    <string name="PublicarPlatilloCeviche">Publicar</string>
+
+
+    <!--AGREGAR  PLATILLOS COCINA-->
+    <string name="NombreTXTPlatillosCocina">Nombre de imagenes</string>
+    <string name="NombrePlatillosCocina">Escriba el nombre aquí</string>
+    <string name="PrecioPlatillosCocina">0</string>
+    <string name="PublicarPlatilloCocina">Publicar</string>
+
+    <!--AGREGAR  PLATILLOS QUESADILLAS-->
+    <string name="NombreTXTPlatillosQuesadilla">Nombre de imagenes</string>
+    <string name="NombrePlatillosQuesadilla">Escriba el nombre aquí</string>
+    <string name="PrecioPlatillosQuesadilla">0</string>
+    <string name="PublicarPlatilloQuesadilla">Publicar</string>
+
+    <!--AGREGAR  PLATILLOS KIDS-->
+    <string name="NombreTXTPlatillosKids">Nombre de imagenes</string>
+    <string name="NombrePlatillosKids">Escriba el nombre aquí</string>
+    <string name="PrecioPlatillosKids">0</string>
+    <string name="PublicarPlatilloKids">Publicar</string>
+
+    <!--AGREGAR  PLATILLOS ALCOHOL-->
+    <string name="NombreTXTPlatillosAlcohol">Nombre de imagenes</string>
+    <string name="NombrePlatillosAlcohol">Escriba el nombre aquí</string>
+    <string name="PrecioPlatillosAlcohol">0</string>
+    <string name="PublicarPlatilloAlcohol">Publicar</string>
+
+    <!--AGREGAR  PLATILLOS  SIN ALCOHOL-->
+    <string name="NombreTXTPlatillosSinAlcohol">Nombre de imagenes</string>
+    <string name="NombrePlatillosSinAlcohol">Escriba el nombre aquí</string>
+    <string name="PrecioPlatillosSinAlcohol">0</string>
+    <string name="PublicarPlatilloSinAlcohol">Publicar</string>
+
+
+    <!---->
+
+    <!--ITEM CEVICHE-->
+    <string name="NombreImagenCeciche"> -- </string>
+    <string name="PrecioPelicula"> -- </string>
+
+    <!--ITEM COCINA-->
+    <string name="NombreImagenCocina"> -- </string>
+    <string name="PrecioCocina"> -- </string>
+
+    <!--ITEM QUESADILLA-->
+    <string name="NombreImagenQuesadilla"> -- </string>
+    <string name="PrecioQuesadilla"> -- </string>
+
+    <!--ITEM KIDS-->
+    <string name="NombreImagenKids"> -- </string>
+    <string name="PrecioKids"> -- </string>
+
+    <!--ITEM ALCOHOL-->
+    <string name="NombreImagenAlcohol"> -- </string>
+    <string name="PrecioAlcohol"> -- </string>
+
+    <!--ITEM SIN ALCOHOL-->
+    <string name="NombreImagenSinAlcohol"> -- </string>s
+    <string name="PrecioSinAlcohol"> -- </string>
+
+    <!--DIALOG ORDENAR-->
+    <string name="OrdenarTXT">Ordenar en:</string>
+    <string name="Dos_Columnas">2 Columnas</string>
+    <string name="Tres_Columnas">3 Columnas</string>
+
+
+    <!--PERFIL-->
+    <string name="PERFILADMINISTRADOR">MI PERFIL</string>
+    <string name="MIINFORMACIONTXT">MI INFORMACIÓN</string>
+
+    <string name="UAIPERFILTXT">Uid: </string>
+    <string name="UAIPERFIL"> -- </string>
+    <string name="NOMBRESPERFILTXT">Nombres: </string>
+    <string name="NOMBRESPERFIL"> -- </string>
+    <string name="APELLIDOSPEFILTXT">Apellidos: </string>
+    <string name="APELLIDOSPERFIL"> -- </string>
+    <string name="CORREOPERFILTXT">Correo: </string>
+    <string name="CORREOPERFIL"> -- </string>
+    <string name="PASSWORDPERFILTXT">Password: </string>
+    <string name="PASSWORDPERFIL"> -- </string>
+    <string name="EDADPERFILTXT">Edad: </string>
+    <string name="EDADPERFIL"> -- </string>
+    <string name="ACTUALIZARPASS">Actualizar password</string>
+    <string name="ACTUALIZARDATOS">Actualizar Datos</string>
+
+
+    <!--ADMINISTRADOR ITEM-->
+    <string name="NombresADMIN"> Nombres </string>
+    <string name="CorreoADMIN">Correo Elextrónico</string>
+
+    <!--DETALLES DEL ADMINISTRADOR-->
+    <string name="DetalleTXT">Detalle del administrador</string>
+    <string name="UidDetalleAdmin">UID</string>
+    <string name="NombreDetalleAdmin">NOMBRE</string>
+    <string name="ApellidoDetalleAdmin">APELLIDOS</string>
+    <string name="CorreoDetalleAdmin">CORREO</string>
+    <string name="EdadDetalleAdmin">EDAD</string>
+
+
+    <!--COCHINERO-->
+
+    <string name="Pedidospendientes">Pedidos pendientes</string>
+
+    <string name="NumeroMesa">Mesa: </string>
+    <string name="NombrePlatillo">Platillo: </string>
+    <string name="PrecioPlatillo">Precio: </string>
+    <string name="TotalCuenta">Total: </string>
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

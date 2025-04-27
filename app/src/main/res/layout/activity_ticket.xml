@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriasMesero.Ticket">
+
+    <TextView
+        android:id="@+id/tvCuenta"
+        android:text="CUENTA"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/nombreMesero"
+        android:hint="Mesero:"
+        android:textColor="#000"
+        android:gravity="left"
+        android:inputType="textCapWords|textAutoCorrect"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCuenta"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentStart="true"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginTop="82dp"
+        android:layout_marginStart="270dp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_values"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/OrdenCuenta"
+        tools:listitem="@layout/ticket_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombreMesero"
+        android:layout_marginTop="19dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_above="@id/TotalCuenta"/>
+
+    <TextView
+        android:id="@+id/TotalCuenta"
+        android:text="Total: --"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+       android:layout_marginEnd="16dp"
+       android:layout_alignParentEnd="true"/>
+
+
+    <Button
+        android:id="@+id/Limpiar"
+        android:text="Limpiar"
+        android:textColor="#000"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/TotalCuenta"
+
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="-100dp"
+        android:background="@drawable/btn_personalizado"/>
+
+    <Button
+        android:id="@+id/Imprimir"
+        android:text="Imprimir"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/TotalCuenta"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="-100dp"
+        android:background="@drawable/btn_personalizado"/>
+</RelativeLayout>

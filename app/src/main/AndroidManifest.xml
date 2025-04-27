@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <activity
+            android:name=".CategoriasMesero.Ticket"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasMesero.Cocina.AgregarCuentaCocina"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasMesero.Cocina.CocinaMesero"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasMesero.Ceviche.AgregarCuentaCeviche"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasMesero.Ceviche.CevicheMesero"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasMesero.Alcohol.AgregarCuentaAlcohol"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasMesero.Alcohol.AlcoholMesero"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasMesero.Kids.AgregarCuentaKids"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasMesero.Kids.KidsMesero"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasMesero.Quesadillas.AgregarCuentaQuesadillas"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasMesero.Quesadillas.QuesadillaMesero"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasMesero.SinAlcohol.AgregarCuentaSinAlcohol"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasMesero.SinAlcohol.SinAlcoholMesero"
+            android:exported="false" />
+        <activity
+            android:name=".Detalle.Detalle_Administrador"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasAdmin.SinAlcocholA.AgregarSinAlcohol"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasAdmin.AlcoholA.AgregarAlcohol"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasAdmin.KidsA.AgregarKids"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasAdmin.QuesadillasA.AgregarQuesadilla"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasAdmin.CocinaA.AgregaraCocina"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasAdmin.CevichesA.AgregarCeviche"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasAdmin.CocinaA.CocinaAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasAdmin.SinAlcocholA.SinAlcoholA"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasAdmin.AlcoholA.AlcoholA"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasAdmin.KidsA.KidsA"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasAdmin.QuesadillasA.QuesadillasA"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasAdmin.CevichesA.CevicheA"
+            android:exported="false" />
+        <activity
+            android:name=".InicioSesion"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivityAdministrador"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Carga"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
